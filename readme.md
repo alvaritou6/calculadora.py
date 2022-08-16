@@ -1,3 +1,3 @@
-# Reloj en Python
+# Calculadora en Python
 
-Este es un proyecto en el cual vamos a implementar 2 librerias de Python (Tkinter y Time), creando un reloj que funciona en tiempo real.
+Este es un proyecto el cual vamos a realizar una calculadora en consola (Pronto vendrá con interfaz grafica ;))
