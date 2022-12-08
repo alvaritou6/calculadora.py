@@ -1,6 +1,13 @@
 import time
 from datetime import datetime
 
+print("Created by: FocaMarina")
+print("https://github.com/focamarina")
+print("")
+print("")
+time.sleep(2)
+
+
 print("Fecha y Hora: ", datetime.now().strftime('%d-%m-%Y %H:%M'))
 
 n1 = float(input("Introduce tu primer numero: "))
@@ -15,8 +22,9 @@ while True:
     2) Restar los dos números
     3) Multiplicar los dos números
     4) Dividir los dos numeros
-    5) Cambiar los números elegidos
-    6) Apagar calculadora
+    5) Porcentaje de los numeros
+    6) Cambiar los números elegidos
+    7) Apagar calculadora
     """)
     option = int(input("Elige una opcion: "))
 
@@ -33,11 +41,14 @@ while True:
         print("")
         print("La division de ", n1, ":", n2, "es igual a", n1 / n2)
     elif option == 5:
-       n1 = float(input("Introduce tu primer numero: "))
-       n2 = float(input("Intrroduce tu segundo numero: "))
+        print("")
+        print('El porcentaje entre', n1, '%', n2, 'es igual a ', (n1*n2)/100)
     elif option == 6:
-        print("La calculadora será apagada en 3 segundos. Nos vemos pronto :D")
-        time.sleep(3)
+        n1 = float(input("Introduce tu primer numero: "))
+        n2 = float(input("Intrroduce tu segundo numero: "))
+    elif option == 7:
+        print("La calculadora será apagada en 5 segundos. Nos vemos pronto :D")
+        time.sleep(5)
         break
     else:
         print("")
